@@ -1,0 +1,20 @@
+#Box 
+{
+	color:blue;
+	border:2px solid #f00;
+	*border:1px solid #f00;
+}
+2¡¢
+    .enable-ie6-hover{ 
+    _zoom:expression(function(el){ 
+        el.style.zoom = "0"; 
+        el.onmouseenter = function() { 
+            el.className = "h"; 
+        }; 
+        el.onmouseleave = function() { 
+            el.className = ""; 
+        }; 
+    	}(this)); 
+    }
+    class="spanBtn" onmouseover="this.className='spBtnHover';" onmouseout="this.className='spanBtn';"
+    onmouseover="this.src='../2.jpg';" onmouseout="this.src='../1.jpg';src='../1.jpg';"
